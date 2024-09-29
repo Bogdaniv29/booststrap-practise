@@ -75,6 +75,7 @@
 .w-100 {
 }
 .carousel-control-prev {
+    display: flex;
 }
 .carousel-control-prev-icon {
 }
