@@ -1,89 +1,71 @@
-.header {
+.container {
 }
-.navbar {
-}
-.navbar-expand-lg {
-}
-.bg-body-tertiary {
-}
-.container-fluid {
-}
-.navbar-brand {
-}
-.navbar-toggler {
-}
-.navbar-toggler-icon {
-}
-.collapse {
-}
-.navbar-collapse {
-}
-.navbar-nav {
-}
-.me-auto {
-}
-.mb-2 {
-}
-.mb-lg-0 {
-}
-.nav-item {
-}
-.nav-link {
-}
-.active {
-}
-.dropdown {
-}
-.dropdown-toggle {
-}
-.dropdown-menu {
-}
-.dropdown-item {
-}
-.dropdown-divider {
-}
-.disabled {
-}
-.d-flex {
-}
-.form-control {
-}
-.me-2 {
-}
-.btn {
-}
-.btn-outline-success {
-}
-.main {
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .hero {
+    /* background-image: url(../photo/hero/hero-atb.jpg); */
+    background-repeat: no-repeat;
+    width: 1200px;
 }
-.hero__section {
+body {
+  font-family: Arial, sans-serif;
 }
-.carousel {
+
+.latest-products {
+
+  text-align: center;
+  padding: 20px;
 }
-.slide {
+
+.product-row {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
 }
-.carousel-indicators {
+
+.product {
+  margin: 0 15px;
+  padding: 10px;
+  border-radius: 5px;
 }
-.carousel-inner {
+
+.product img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
 }
-.carousel-item {
+
+.buy-button {
+  background-color: #87cefa; /* Голубий колір */
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
-.d-block {
+
+.buy-button:hover {
+  background-color: #7bc5f4; /* Світліший голубий при наведенні */
 }
-.w-100 {
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.carousel-control-prev {
-    display: flex;
+
+footer img {
+  transition: transform 0.2s;
 }
-.carousel-control-prev-icon {
+
+footer img:hover {
+  transform: scale(1.2);
 }
-.visually-hidden {
-}
-.carousel-control-next {
-}
-.carousel-control-next-icon {
-}
-.footer {
+
+footer h3 {
+  margin-bottom: 20px;
 }
